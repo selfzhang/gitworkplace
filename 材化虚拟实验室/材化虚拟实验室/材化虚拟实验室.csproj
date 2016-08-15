@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C7B4A33-9ABB-49AC-8078-3D0FD037D149}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>材化虚拟实验室</RootNamespace>
+    <AssemblyName>材化虚拟实验室</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ColorHatch, Version=1.0.3010.35127, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ColorHatch.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="celiangTepm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="celiangTepm.Designer.cs">
+      <DependentUpon>celiangTepm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlForm.Designer.cs">
+      <DependentUpon>ControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="excel.cs" />
+    <Compile Include="fangZhenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fangZhenForm.Designer.cs">
+      <DependentUpon>fangZhenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gongJianForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gongJianForm.Designer.cs">
+      <DependentUpon>gongJianForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jisuanTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jisuanTemp.Designer.cs">
+      <DependentUpon>jisuanTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MissesStress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MissesStress.Designer.cs">
+      <DependentUpon>MissesStress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xstress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xstress.Designer.cs">
+      <DependentUpon>Xstress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tuzhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tuzhi.Designer.cs">
+      <DependentUpon>tuzhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tuzhiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tuzhiForm.Designer.cs">
+      <DependentUpon>tuzhiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialForm.Designer.cs">
+      <DependentUpon>MaterialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResidualStressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResidualStressForm.Designer.cs">
+      <DependentUpon>ResidualStressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SchemeDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchemeDesign.Designer.cs">
+      <DependentUpon>SchemeDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Word.cs" />
+    <Compile Include="gongyiquxianForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gongyiquxianForm.Designer.cs">
+      <DependentUpon>gongyiquxianForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XYStressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XYStressForm.Designer.cs">
+      <DependentUpon>XYStressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TemperatureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TemperatureForm.Designer.cs">
+      <DependentUpon>TemperatureForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="textIntroduce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="textIntroduce.Designer.cs">
+      <DependentUpon>textIntroduce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewForm.Designer.cs">
+      <DependentUpon>viewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ystress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ystress.Designer.cs">
+      <DependentUpon>Ystress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZEquivalentStressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZEquivalentStressForm.Designer.cs">
+      <DependentUpon>ZEquivalentStressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zongheyshiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zongheyshiForm.Designer.cs">
+      <DependentUpon>zongheyshiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zstress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zstress.Designer.cs">
+      <DependentUpon>Zstress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zuzhiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zuzhiForm.Designer.cs">
+      <DependentUpon>zuzhiForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="celiangTepm.resx">
+      <DependentUpon>celiangTepm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlForm.resx">
+      <DependentUpon>ControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fangZhenForm.resx">
+      <DependentUpon>fangZhenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gongJianForm.resx">
+      <DependentUpon>gongJianForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jisuanTemp.resx">
+      <DependentUpon>jisuanTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MissesStress.resx">
+      <DependentUpon>MissesStress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xstress.resx">
+      <DependentUpon>Xstress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tuzhi.resx">
+      <DependentUpon>tuzhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tuzhiForm.resx">
+      <DependentUpon>tuzhiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialForm.resx">
+      <DependentUpon>MaterialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ResidualStressForm.resx">
+      <DependentUpon>ResidualStressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchemeDesign.resx">
+      <DependentUpon>SchemeDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gongyiquxianForm.resx">
+      <DependentUpon>gongyiquxianForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XYStressForm.resx">
+      <DependentUpon>XYStressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemperatureForm.resx">
+      <DependentUpon>TemperatureForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="textIntroduce.resx">
+      <DependentUpon>textIntroduce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewForm.resx">
+      <DependentUpon>viewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ystress.resx">
+      <DependentUpon>Ystress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZEquivalentStressForm.resx">
+      <DependentUpon>ZEquivalentStressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zongheyshiForm.resx">
+      <DependentUpon>zongheyshiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zstress.resx">
+      <DependentUpon>Zstress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zuzhiForm.resx">
+      <DependentUpon>zuzhiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="热处理\仿真视频\应力场\" />
+    <Folder Include="热处理\仿真视频\温度场视频\" />
+    <Folder Include="热处理\仿真视频\组织场\" />
+    <Folder Include="热处理\工艺策略\" />
+    <Folder Include="热处理\工艺视屏\" />
+    <Folder Include="热处理\操作动画\淬火方式\" />
+    <Folder Include="热处理\操作动画\炉子操作\" />
+    <Folder Include="热处理\曲线仿真\应力场曲线\" />
+    <Folder Include="热处理\曲线仿真\温度场曲线\" />
+    <Folder Include="热处理\曲线仿真\组织场曲线\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ALIEDITLib">
+      <Guid>{6757BC14-4DAE-4908-8EC5-06413617F798}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxALIEDITLib">
+      <Guid>{6757BC14-4DAE-4908-8EC5-06413617F798}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxDSOFramer">
+      <Guid>{00460180-9E5E-11D5-B7C8-B8269041DD57}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxnpBFWebBrowserPluginLib">
+      <Guid>{8DC0D773-6433-4126-A0F0-3F2EFCA1DEA7}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxSHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWEBOFFICELib">
+      <Guid>{66DB0CA1-19A7-41B6-B7DA-E23F1B5E4260}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="DSOFramer">
+      <Guid>{00460180-9E5E-11D5-B7C8-B8269041DD57}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="npBFWebBrowserPluginLib">
+      <Guid>{8DC0D773-6433-4126-A0F0-3F2EFCA1DEA7}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WEBOFFICELib">
+      <Guid>{66DB0CA1-19A7-41B6-B7DA-E23F1B5E4260}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="热处理\image\保存.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="热处理\image\保存.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="热处理\image\编辑.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
