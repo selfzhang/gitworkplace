@@ -1,0 +1,458 @@
+[DEBUG] 2016-08-13 00:19:49,996 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: sssssssssss
+[INFO] 2016-08-13 00:19:50,013 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined ssss, Current Online Users: 1
+[DEBUG] 2016-08-13 00:20:54,327 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: sssssssssss
+[INFO] 2016-08-13 00:20:54,328 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - New user joined ssss, Current Online Users: 1
+[DEBUG] 2016-08-13 19:09:04,688 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 19:09:04,703 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 19:09:57,926 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 19:09:57,929 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 19:10:05,748 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous22
+[INFO] 2016-08-13 19:10:05,749 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - New user joined  Anonymous22, Current Online Users: 1
+[DEBUG] 2016-08-13 20:24:15,162 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous2LIST
+[INFO] 2016-08-13 20:24:15,172 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  Anonymous2LIST, Current Online Users: 1
+[DEBUG] 2016-08-13 20:24:33,181 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous2","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-08-13 20:24:33,299 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xd5e93ba9, /127.0.0.1:22116 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous2, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 20:31:26,821 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 20:31:26,832 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 20:31:34,730 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档 (2).txt","size":152,"sharer":"Anonymous","checksum":"4f6c0a2218051543b1bcc2a9c7ea707b"}
+[INFO] 2016-08-13 20:31:34,880 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x12d7a50d, /127.0.0.1:22180 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档 (2).txt, Sharer=Anonymous, Checksum=4f6c0a2218051543b1bcc2a9c7ea707b, Size=152 Byte]
+[DEBUG] 2016-08-13 20:32:43,450 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 20:32:43,459 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 20:32:50,358 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"秒针内推-张伟-哈尔滨工业大学-计算机技术.pdf","size":249461,"sharer":"Anonymous","checksum":"36291a2faacae56890b56da848a40a05"}
+[INFO] 2016-08-13 20:32:50,493 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xe849671e, /127.0.0.1:22235 => /127.0.0.1:7878], SharedFile [FileName=秒针内推-张伟-哈尔滨工业大学-计算机技术.pdf, Sharer=Anonymous, Checksum=36291a2faacae56890b56da848a40a05, Size=249461 Byte]
+[DEBUG] 2016-08-13 20:33:27,448 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 20:33:27,449 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 20:33:27,459 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:33:35,523 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"官网简历状态和信息修改申请表.xlsx","size":22515,"sharer":"Anonymous","checksum":"11cdf3067b91133bc1b9dc3ff9289726"}
+[INFO] 2016-08-13 20:33:35,525 [nioEventLoopGroup-3-2] netty.napsters.server.FileServer - File shared at [id: 0xe8567e1a, /127.0.0.1:22253 => /127.0.0.1:7878], SharedFile [FileName=官网简历状态和信息修改申请表.xlsx, Sharer=Anonymous, Checksum=11cdf3067b91133bc1b9dc3ff9289726, Size=22515 Byte]
+[DEBUG] 2016-08-13 20:33:35,554 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:33:45,532 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:33:46,684 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:33:58,524 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous2
+[INFO] 2016-08-13 20:33:58,525 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - New user joined  Anonymous2, Current Online Users: 1
+[DEBUG] 2016-08-13 20:33:58,535 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:34:05,052 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:34:15,209 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"官网简历状态和信息修改申请表.xlsx","size":22515,"sharer":"Anonymous2","checksum":"11cdf3067b91133bc1b9dc3ff9289726"}
+[DEBUG] 2016-08-13 20:34:28,164 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-08-13 20:34:28,165 [nioEventLoopGroup-3-2] netty.napsters.server.FileServer - File shared at [id: 0xe8567e1a, /127.0.0.1:22253 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 20:34:28,195 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:34:30,795 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:34:39,928 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous2","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[DEBUG] 2016-08-13 20:34:54,469 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"kmeans2.txt","size":16063,"sharer":"Anonymous2","checksum":"69f78ccf2d59a3dc8d64d958ff222114"}
+[INFO] 2016-08-13 20:34:54,470 [nioEventLoopGroup-3-3] netty.napsters.server.FileServer - File shared at [id: 0xdaa660a6, /127.0.0.1:22271 => /127.0.0.1:7878], SharedFile [FileName=kmeans2.txt, Sharer=Anonymous2, Checksum=69f78ccf2d59a3dc8d64d958ff222114, Size=16063 Byte]
+[DEBUG] 2016-08-13 20:34:54,500 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:35:16,572 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:36:25,993 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 20:36:25,994 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 20:36:26,004 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:36:33,779 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:36:34,772 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:36:47,102 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous33
+[INFO] 2016-08-13 20:36:47,103 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - New user joined  Anonymous33, Current Online Users: 1
+[DEBUG] 2016-08-13 20:36:47,104 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:37:00,540 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:37:09,897 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous33","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[INFO] 2016-08-13 20:37:09,898 [nioEventLoopGroup-3-5] netty.napsters.server.FileServer - File shared at [id: 0xcd833cd9, /127.0.0.1:22308 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous33, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[DEBUG] 2016-08-13 20:37:09,929 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:37:15,684 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:37:27,924 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:37:30,211 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 20:37:40,813 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: REQUEST 5fccf1ef83d807d634a4100e22d59ede
+[DEBUG] 2016-08-13 21:03:26,114 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:03:26,124 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:03:34,803 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-08-13 21:03:34,910 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xf73220df, /127.0.0.1:22548 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 21:05:36,154 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:05:36,155 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:05:42,075 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[INFO] 2016-08-13 21:05:42,076 [nioEventLoopGroup-3-2] netty.napsters.server.FileServer - File shared at [id: 0xd57dc7fb, /127.0.0.1:22570 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[DEBUG] 2016-08-13 21:07:38,816 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:07:38,826 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:07:46,063 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-08-13 21:07:46,175 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x97b5f373, /127.0.0.1:22653 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 21:10:12,713 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:10:12,724 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:10:20,962 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-08-13 21:10:21,069 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x211f032f, /127.0.0.1:22704 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 21:10:26,021 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:11:59,696 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:11:59,709 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:12:05,392 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"setup.log","size":224,"sharer":"Anonymous","checksum":"372a0a804d6a04a232b780c0decdbb50"}
+[INFO] 2016-08-13 21:12:05,500 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x59c88823, /127.0.0.1:22754 => /127.0.0.1:7878], SharedFile [FileName=setup.log, Sharer=Anonymous, Checksum=372a0a804d6a04a232b780c0decdbb50, Size=224 Byte]
+[DEBUG] 2016-08-13 21:20:33,861 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:20:33,872 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:20:39,023 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"阿里校招-特殊内推表.xlsx","size":10994,"sharer":"Anonymous","checksum":"b3e5a67dffa72a16c0083f82bf046b5c"}
+[INFO] 2016-08-13 21:20:39,135 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x4b367053, /127.0.0.1:22821 => /127.0.0.1:7878], SharedFile [FileName=阿里校招-特殊内推表.xlsx, Sharer=Anonymous, Checksum=b3e5a67dffa72a16c0083f82bf046b5c, Size=10994 Byte]
+[DEBUG] 2016-08-13 21:24:45,851 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:24:45,853 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:24:52,345 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"账单.xlsx","size":11777,"sharer":"Anonymous","checksum":"b3bbf44bf99f306bca8e6998fc93f9be"}
+[INFO] 2016-08-13 21:24:52,346 [nioEventLoopGroup-3-2] netty.napsters.server.FileServer - File shared at [id: 0xb926176b, /127.0.0.1:22846 => /127.0.0.1:7878], SharedFile [FileName=账单.xlsx, Sharer=Anonymous, Checksum=b3bbf44bf99f306bca8e6998fc93f9be, Size=11777 Byte]
+[DEBUG] 2016-08-13 21:25:40,506 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:25:40,528 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:25:46,506 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[INFO] 2016-08-13 21:25:46,613 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xb2576f43, /127.0.0.1:22905 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[DEBUG] 2016-08-13 21:26:18,374 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:26:18,375 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:26:26,310 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[DEBUG] 2016-08-13 21:27:08,377 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:27:08,389 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:27:13,834 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[INFO] 2016-08-13 21:27:13,940 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x9766be6f, /127.0.0.1:22977 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[DEBUG] 2016-08-13 21:29:01,189 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:29:01,201 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:29:07,023 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"dataset3.txt","size":7633,"sharer":"Anonymous","checksum":"f10c729e1dd38ec165a0ade8f9863839"}
+[INFO] 2016-08-13 21:29:07,118 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x04262df3, /127.0.0.1:23032 => /127.0.0.1:7878], SharedFile [FileName=dataset3.txt, Sharer=Anonymous, Checksum=f10c729e1dd38ec165a0ade8f9863839, Size=7633 Byte]
+[DEBUG] 2016-08-13 21:30:29,867 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:30:29,878 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:30:36,020 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[INFO] 2016-08-13 21:30:36,113 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x343c8919, /127.0.0.1:23082 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[DEBUG] 2016-08-13 21:31:31,337 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:31:31,351 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:31:35,615 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"RHDSetup.log","size":2575,"sharer":"Anonymous","checksum":"a2402af4e4482540f220355116e3ef05"}
+[INFO] 2016-08-13 21:31:35,710 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xc9e2bafe, /127.0.0.1:23168 => /127.0.0.1:7878], SharedFile [FileName=RHDSetup.log, Sharer=Anonymous, Checksum=a2402af4e4482540f220355116e3ef05, Size=2575 Byte]
+[DEBUG] 2016-08-13 21:33:01,611 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:33:01,623 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:33:06,358 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"功耗测量记录.xlsx","size":76291,"sharer":"Anonymous","checksum":"2edb13bd6a0004ebc16d2618bf6bbc7c"}
+[INFO] 2016-08-13 21:33:06,459 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x57d7895c, /127.0.0.1:23223 => /127.0.0.1:7878], SharedFile [FileName=功耗测量记录.xlsx, Sharer=Anonymous, Checksum=2edb13bd6a0004ebc16d2618bf6bbc7c, Size=76291 Byte]
+[DEBUG] 2016-08-13 21:34:21,144 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:34:21,155 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:34:26,260 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-08-13 21:34:26,361 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xa8ab5df5, /127.0.0.1:23275 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 21:35:32,409 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:35:32,421 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:35:38,493 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"阿里校招-特殊内推表.xlsx","size":10994,"sharer":"Anonymous","checksum":"b3e5a67dffa72a16c0083f82bf046b5c"}
+[INFO] 2016-08-13 21:35:38,585 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x8287ead8, /127.0.0.1:23336 => /127.0.0.1:7878], SharedFile [FileName=阿里校招-特殊内推表.xlsx, Sharer=Anonymous, Checksum=b3e5a67dffa72a16c0083f82bf046b5c, Size=10994 Byte]
+[DEBUG] 2016-08-13 21:35:38,594 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:36:27,246 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:36:27,257 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:36:31,654 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"RHDSetup.log","size":2575,"sharer":"Anonymous","checksum":"a2402af4e4482540f220355116e3ef05"}
+[INFO] 2016-08-13 21:36:31,746 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xf05e4f8e, /127.0.0.1:23395 => /127.0.0.1:7878], SharedFile [FileName=RHDSetup.log, Sharer=Anonymous, Checksum=a2402af4e4482540f220355116e3ef05, Size=2575 Byte]
+[DEBUG] 2016-08-13 21:36:31,754 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:36:40,396 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-08-13 21:36:40,397 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xf05e4f8e, /127.0.0.1:23395 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 21:36:40,497 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:38:16,247 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:38:16,258 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:38:21,966 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-08-13 21:38:22,060 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xe8e0a34d, /127.0.0.1:23447 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 21:38:22,067 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:38:25,317 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:39:09,590 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[INFO] 2016-08-13 21:39:09,591 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xe8e0a34d, /127.0.0.1:23447 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[DEBUG] 2016-08-13 21:39:09,690 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:39:14,709 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:14,709 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[INFO] 2016-08-13 21:39:14,710 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File unshared at [id: 0xe8e0a34d, /127.0.0.1:23447 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[INFO] 2016-08-13 21:39:14,711 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File unshared at [id: 0xe8e0a34d, /127.0.0.1:23447 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 21:39:16,765 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:16,767 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:18,460 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:18,460 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:19,134 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:19,135 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:20,068 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:20,069 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:20,617 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:20,618 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:21,149 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:21,149 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:22,196 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:22,197 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:22,661 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:22,661 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:22,988 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 21:39:22,989 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:22,990 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:39:23,196 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:23,197 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - User leaved Anonymous, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:23,425 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:23,426 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:23,604 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:23,605 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:23,916 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:23,917 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:24,708 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:24,709 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:25,233 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:25,234 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:27,061 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:39:27,685 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:39:28,108 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:39:28,460 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:39:28,972 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:39:29,724 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:39:30,500 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:39:36,055 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[INFO] 2016-08-13 21:39:36,056 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x437bab3f, /127.0.0.1:23585 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[DEBUG] 2016-08-13 21:39:36,156 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:39:37,891 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:37,892 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[INFO] 2016-08-13 21:39:37,892 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File unshared at [id: 0x437bab3f, /127.0.0.1:23585 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[DEBUG] 2016-08-13 21:39:38,547 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:38,548 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:41,965 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:41,965 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:42,717 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:42,717 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:43,357 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:43,357 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:44,014 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:44,015 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:44,565 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:44,565 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:45,163 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:45,163 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:45,692 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:45,693 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:46,338 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:46,339 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:46,956 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:46,957 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:47,605 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:47,605 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:48,140 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:48,141 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:48,714 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:48,715 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:49,228 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:49,229 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:49,738 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:49,738 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:50,236 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:50,236 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:50,713 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:50,714 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:51,212 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:51,213 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:51,705 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:51,706 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:52,204 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:52,204 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:52,698 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:52,699 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:54,828 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:54,828 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:55,263 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:55,263 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:39:55,829 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:39:55,829 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 21:39:56,282 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:39:56,282 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:44:22,280 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:44:22,291 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:44:27,581 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-08-13 21:44:27,674 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xa6c14c94, /127.0.0.1:24126 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 21:44:27,682 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:44:31,141 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:44:31,845 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:44:31,845 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[INFO] 2016-08-13 21:44:31,846 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File unshared at [id: 0xa6c14c94, /127.0.0.1:24126 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 21:44:33,150 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:44:33,151 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:47:27,188 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:47:27,199 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:47:33,314 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"阿里校招-特殊内推表.xlsx","size":10994,"sharer":"Anonymous","checksum":"b3e5a67dffa72a16c0083f82bf046b5c"}
+[INFO] 2016-08-13 21:47:33,426 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x197b9434, /127.0.0.1:24205 => /127.0.0.1:7878], SharedFile [FileName=阿里校招-特殊内推表.xlsx, Sharer=Anonymous, Checksum=b3e5a67dffa72a16c0083f82bf046b5c, Size=10994 Byte]
+[DEBUG] 2016-08-13 21:47:36,293 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 21:47:36,294 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[INFO] 2016-08-13 21:47:36,295 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File unshared at [id: 0x197b9434, /127.0.0.1:24205 => /127.0.0.1:7878], SharedFile [FileName=阿里校招-特殊内推表.xlsx, Sharer=Anonymous, Checksum=b3e5a67dffa72a16c0083f82bf046b5c, Size=10994 Byte]
+[DEBUG] 2016-08-13 21:47:37,087 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:47:37,087 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:47:42,977 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[INFO] 2016-08-13 21:47:42,978 [nioEventLoopGroup-3-2] netty.napsters.server.FileServer - File shared at [id: 0xe12b1f8c, /127.0.0.1:24223 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[DEBUG] 2016-08-13 21:47:43,007 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 21:49:33,980 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 21:49:33,992 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 21:49:39,513 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[INFO] 2016-08-13 21:49:39,607 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xa4d3502b, /127.0.0.1:24279 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[DEBUG] 2016-08-13 22:00:13,754 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 22:00:13,765 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 22:00:19,003 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-08-13 22:00:19,121 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xaed7b716, /127.0.0.1:24342 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 22:08:17,959 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 22:08:17,971 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 22:08:22,146 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"setup.log","size":224,"sharer":"Anonymous","checksum":"372a0a804d6a04a232b780c0decdbb50"}
+[INFO] 2016-08-13 22:08:22,239 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x6d09c99b, /127.0.0.1:24403 => /127.0.0.1:7878], SharedFile [FileName=setup.log, Sharer=Anonymous, Checksum=372a0a804d6a04a232b780c0decdbb50, Size=224 Byte]
+[DEBUG] 2016-08-13 22:56:26,436 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 22:56:26,448 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 22:56:31,666 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建 Microsoft Word Document.docx","size":110318,"sharer":"Anonymous","checksum":"ed7d6ad7a61f388ba287278409610490"}
+[INFO] 2016-08-13 22:56:31,772 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x9010acdc, /127.0.0.1:24600 => /127.0.0.1:7878], SharedFile [FileName=新建 Microsoft Word Document.docx, Sharer=Anonymous, Checksum=ed7d6ad7a61f388ba287278409610490, Size=110318 Byte]
+[DEBUG] 2016-08-13 22:59:46,423 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 22:59:46,434 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 22:59:50,088 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"smartrfprog.txt","size":24929,"sharer":"Anonymous","checksum":"38da5448a0bf2a360ab0cd9c4a55800b"}
+[INFO] 2016-08-13 22:59:50,181 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x7a9f0715, /127.0.0.1:24653 => /127.0.0.1:7878], SharedFile [FileName=smartrfprog.txt, Sharer=Anonymous, Checksum=38da5448a0bf2a360ab0cd9c4a55800b, Size=24929 Byte]
+[DEBUG] 2016-08-13 23:08:28,644 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:08:28,656 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:08:33,947 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-08-13 23:08:34,060 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x983955d2, /127.0.0.1:24715 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 23:09:53,838 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:09:53,850 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:09:56,310 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 23:09:56,311 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - User leaved AnonymousLIST, Current Online Users: 0
+[DEBUG] 2016-08-13 23:09:57,201 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:09:57,203 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:10:02,863 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-08-13 23:10:03,020 [nioEventLoopGroup-3-2] netty.napsters.server.FileServer - File shared at [id: 0xfaee1d23, /127.0.0.1:24784 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 23:11:21,491 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:11:21,501 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:11:26,441 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-08-13 23:11:26,556 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x8b70a095, /127.0.0.1:24852 => /127.0.0.1:7878], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-08-13 23:14:45,485 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:14:45,495 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:14:52,339 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"dataset3.txt","size":7633,"sharer":"Anonymous","checksum":"f10c729e1dd38ec165a0ade8f9863839"}
+[INFO] 2016-08-13 23:14:52,456 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xc1be5af7, /127.0.0.1:24906 => /127.0.0.1:7878], SharedFile [FileName=dataset3.txt, Sharer=Anonymous, Checksum=f10c729e1dd38ec165a0ade8f9863839, Size=7633 Byte]
+[DEBUG] 2016-08-13 23:16:04,362 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:16:04,374 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:16:12,111 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"smartrfprog.txt","size":24929,"sharer":"Anonymous","checksum":"38da5448a0bf2a360ab0cd9c4a55800b"}
+[INFO] 2016-08-13 23:16:12,228 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x33653bc1, /127.0.0.1:24959 => /127.0.0.1:7878], SharedFile [FileName=smartrfprog.txt, Sharer=Anonymous, Checksum=38da5448a0bf2a360ab0cd9c4a55800b, Size=24929 Byte]
+[DEBUG] 2016-08-13 23:16:42,817 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:16:42,818 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:16:48,729 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[INFO] 2016-08-13 23:16:48,730 [nioEventLoopGroup-3-2] netty.napsters.server.FileServer - File shared at [id: 0xb09b5862, /127.0.0.1:24980 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[DEBUG] 2016-08-13 23:17:50,455 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:17:50,456 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:17:50,465 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:17:56,543 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"uninstall.iss","size":692,"sharer":"Anonymous","checksum":"9518409f84e8b5590f0b6c5185c671d6"}
+[INFO] 2016-08-13 23:17:56,544 [nioEventLoopGroup-3-3] netty.napsters.server.FileServer - File shared at [id: 0xfa8c4ec3, /127.0.0.1:24998 => /127.0.0.1:7878], SharedFile [FileName=uninstall.iss, Sharer=Anonymous, Checksum=9518409f84e8b5590f0b6c5185c671d6, Size=692 Byte]
+[DEBUG] 2016-08-13 23:18:36,750 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:18:36,761 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:18:41,017 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[INFO] 2016-08-13 23:18:41,160 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x4847364b, /127.0.0.1:25051 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[DEBUG] 2016-08-13 23:19:37,068 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:19:37,071 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:19:41,952 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[DEBUG] 2016-08-13 23:20:01,481 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:20:01,492 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:20:05,322 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"smartrfprog.txt","size":24929,"sharer":"Anonymous","checksum":"38da5448a0bf2a360ab0cd9c4a55800b"}
+[INFO] 2016-08-13 23:20:05,442 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xeac9d38f, /127.0.0.1:25122 => /127.0.0.1:7878], SharedFile [FileName=smartrfprog.txt, Sharer=Anonymous, Checksum=38da5448a0bf2a360ab0cd9c4a55800b, Size=24929 Byte]
+[DEBUG] 2016-08-13 23:21:16,285 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:21:16,289 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:21:21,520 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"smartrfprog.txt","size":24929,"sharer":"Anonymous","checksum":"38da5448a0bf2a360ab0cd9c4a55800b"}
+[DEBUG] 2016-08-13 23:22:29,239 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:22:29,252 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:22:34,517 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"RHDSetup.log","size":2575,"sharer":"Anonymous","checksum":"a2402af4e4482540f220355116e3ef05"}
+[INFO] 2016-08-13 23:22:34,700 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x91b43b68, /127.0.0.1:25208 => /127.0.0.1:7878], SharedFile [FileName=RHDSetup.log, Sharer=Anonymous, Checksum=a2402af4e4482540f220355116e3ef05, Size=2575 Byte]
+[DEBUG] 2016-08-13 23:24:08,586 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:24:08,587 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:24:13,130 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"setup.log","size":224,"sharer":"Anonymous","checksum":"372a0a804d6a04a232b780c0decdbb50"}
+[INFO] 2016-08-13 23:24:13,131 [nioEventLoopGroup-3-2] netty.napsters.server.FileServer - File shared at [id: 0x3899599e, /127.0.0.1:25229 => /127.0.0.1:7878], SharedFile [FileName=setup.log, Sharer=Anonymous, Checksum=372a0a804d6a04a232b780c0decdbb50, Size=224 Byte]
+[DEBUG] 2016-08-13 23:24:43,880 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:24:43,880 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:24:43,890 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:24:49,647 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"RHDSetup.log","size":2575,"sharer":"Anonymous","checksum":"a2402af4e4482540f220355116e3ef05"}
+[DEBUG] 2016-08-13 23:25:19,632 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:25:19,633 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:25:19,642 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:25:28,144 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"smartrfprog.txt","size":24929,"sharer":"Anonymous","checksum":"38da5448a0bf2a360ab0cd9c4a55800b"}
+[INFO] 2016-08-13 23:25:28,145 [nioEventLoopGroup-3-4] netty.napsters.server.FileServer - File shared at [id: 0x9c4b9da8, /127.0.0.1:25267 => /127.0.0.1:7878], SharedFile [FileName=smartrfprog.txt, Sharer=Anonymous, Checksum=38da5448a0bf2a360ab0cd9c4a55800b, Size=24929 Byte]
+[DEBUG] 2016-08-13 23:26:21,723 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:26:21,724 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:26:21,733 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:26:28,502 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[INFO] 2016-08-13 23:26:28,503 [nioEventLoopGroup-3-5] netty.napsters.server.FileServer - File shared at [id: 0x1375a879, /127.0.0.1:25286 => /127.0.0.1:7878], SharedFile [FileName=data2.txt, Sharer=Anonymous, Checksum=5fccf1ef83d807d634a4100e22d59ede, Size=9243 Byte]
+[DEBUG] 2016-08-13 23:28:02,595 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:28:02,595 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:28:02,606 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:28:07,409 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"RHDSetup.log","size":2575,"sharer":"Anonymous","checksum":"a2402af4e4482540f220355116e3ef05"}
+[DEBUG] 2016-08-13 23:28:54,120 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:28:54,121 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:28:54,122 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:28:59,089 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[DEBUG] 2016-08-13 23:29:18,809 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:29:18,809 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:29:18,819 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:29:24,454 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[DEBUG] 2016-08-13 23:30:14,389 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:30:14,390 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:30:14,400 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:30:19,063 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[DEBUG] 2016-08-13 23:31:36,748 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:31:36,748 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:31:36,760 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:31:42,899 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[DEBUG] 2016-08-13 23:32:09,075 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:32:09,075 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:32:09,085 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:32:15,493 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"data2.txt","size":9243,"sharer":"Anonymous","checksum":"5fccf1ef83d807d634a4100e22d59ede"}
+[DEBUG] 2016-08-13 23:33:12,422 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:33:12,423 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:33:12,434 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:33:17,371 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"RHDSetup.log","size":2575,"sharer":"Anonymous","checksum":"a2402af4e4482540f220355116e3ef05"}
+[DEBUG] 2016-08-13 23:33:51,795 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:33:51,795 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:33:51,796 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:34:02,716 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"1.vsd","size":49664,"sharer":"Anonymous","checksum":"ced28cae7331e3a17921f82eb7c34ebd"}
+[INFO] 2016-08-13 23:34:02,717 [nioEventLoopGroup-3-5] netty.napsters.server.FileServer - File shared at [id: 0x3944a7a5, /127.0.0.1:25458 => /127.0.0.1:7878], SharedFile [FileName=1.vsd, Sharer=Anonymous, Checksum=ced28cae7331e3a17921f82eb7c34ebd, Size=49664 Byte]
+[DEBUG] 2016-08-13 23:34:19,080 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:34:19,080 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:34:19,090 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:34:25,375 [nioEventLoopGroup-3-6] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"netty'.docx","size":113722,"sharer":"Anonymous","checksum":"16a5474566bf248621ece8e9339afe04"}
+[INFO] 2016-08-13 23:34:25,376 [nioEventLoopGroup-3-6] netty.napsters.server.FileServer - File shared at [id: 0x76eb8137, /127.0.0.1:25476 => /127.0.0.1:7878], SharedFile [FileName=netty'.docx, Sharer=Anonymous, Checksum=16a5474566bf248621ece8e9339afe04, Size=113722 Byte]
+[DEBUG] 2016-08-13 23:35:34,245 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:35:34,246 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:35:34,257 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:35:40,396 [nioEventLoopGroup-3-7] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"《计算机网络》点名册.xls","size":48128,"sharer":"Anonymous","checksum":"850d59e1117ac442ff1903b740c0941a"}
+[INFO] 2016-08-13 23:35:40,397 [nioEventLoopGroup-3-7] netty.napsters.server.FileServer - File shared at [id: 0x6a3c88d4, /127.0.0.1:25495 => /127.0.0.1:7878], SharedFile [FileName=《计算机网络》点名册.xls, Sharer=Anonymous, Checksum=850d59e1117ac442ff1903b740c0941a, Size=48128 Byte]
+[DEBUG] 2016-08-13 23:36:16,404 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:36:16,405 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:36:16,416 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:36:24,225 [nioEventLoopGroup-3-8] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"artifacts.xml","size":362895,"sharer":"Anonymous","checksum":"688b31a90b21624c10f667fae61702f6"}
+[INFO] 2016-08-13 23:36:24,227 [nioEventLoopGroup-3-8] netty.napsters.server.FileServer - File shared at [id: 0x930d476d, /127.0.0.1:25513 => /127.0.0.1:7878], SharedFile [FileName=artifacts.xml, Sharer=Anonymous, Checksum=688b31a90b21624c10f667fae61702f6, Size=362895 Byte]
+[DEBUG] 2016-08-13 23:37:27,235 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:37:27,236 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:37:27,246 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:37:44,838 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"setup.log","size":224,"sharer":"Anonymous","checksum":"372a0a804d6a04a232b780c0decdbb50"}
+[DEBUG] 2016-08-13 23:39:40,668 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:39:40,669 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:39:40,679 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:39:48,888 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"228400_install.vdf","size":1497,"sharer":"Anonymous","checksum":"303c73474e492cda47ae98b9922369ee"}
+[INFO] 2016-08-13 23:39:48,888 [nioEventLoopGroup-3-2] netty.napsters.server.FileServer - File shared at [id: 0xbaefb77e, /127.0.0.1:25552 => /127.0.0.1:7878], SharedFile [FileName=228400_install.vdf, Sharer=Anonymous, Checksum=303c73474e492cda47ae98b9922369ee, Size=1497 Byte]
+[DEBUG] 2016-08-13 23:42:35,445 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:42:35,446 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:42:35,455 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:42:35,850 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: QUIT
+[INFO] 2016-08-13 23:42:35,850 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - User leaved Anonymous, Current Online Users: 0
+[DEBUG] 2016-08-13 23:42:37,291 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:42:37,292 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:42:37,292 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:42:43,260 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"test.xls","size":31232,"sharer":"Anonymous","checksum":"4bdc1afce4c2a6402ab19e7885ee9a20"}
+[INFO] 2016-08-13 23:42:43,261 [nioEventLoopGroup-3-4] netty.napsters.server.FileServer - File shared at [id: 0xffdc531f, /127.0.0.1:25588 => /127.0.0.1:7878], SharedFile [FileName=test.xls, Sharer=Anonymous, Checksum=4bdc1afce4c2a6402ab19e7885ee9a20, Size=31232 Byte]
+[DEBUG] 2016-08-13 23:43:44,333 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:43:44,333 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:43:44,344 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:44:13,456 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:44:13,467 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:44:20,001 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"libmysql.dll","size":4470272,"sharer":"Anonymous","checksum":"ca5c6794b389f4ff6879a688acb972c0"}
+[INFO] 2016-08-13 23:44:20,132 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xf9a7a8a6, /127.0.0.1:25657 => /127.0.0.1:7878], SharedFile [FileName=libmysql.dll, Sharer=Anonymous, Checksum=ca5c6794b389f4ff6879a688acb972c0, Size=4470272 Byte]
+[DEBUG] 2016-08-13 23:46:57,644 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:46:57,655 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:47:04,041 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"ACE.dll","size":1958608,"sharer":"Anonymous","checksum":"babf6eebb81cef6492b46ed6d8235017"}
+[INFO] 2016-08-13 23:47:04,143 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x357886fa, /127.0.0.1:25711 => /127.0.0.1:7878], SharedFile [FileName=ACE.dll, Sharer=Anonymous, Checksum=babf6eebb81cef6492b46ed6d8235017, Size=1958608 Byte]
+[DEBUG] 2016-08-13 23:48:40,698 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:48:40,702 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:48:48,380 [nioEventLoopGroup-3-2] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"autobackup.ico","size":481686,"sharer":"Anonymous","checksum":"cea33e92dd2e8f1b4dbed22c25ac7570"}
+[INFO] 2016-08-13 23:48:48,381 [nioEventLoopGroup-3-2] netty.napsters.server.FileServer - File shared at [id: 0xd22a691b, /127.0.0.1:25731 => /127.0.0.1:7878], SharedFile [FileName=autobackup.ico, Sharer=Anonymous, Checksum=cea33e92dd2e8f1b4dbed22c25ac7570, Size=481686 Byte]
+[DEBUG] 2016-08-13 23:49:22,438 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:49:22,438 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:49:22,450 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:49:32,821 [nioEventLoopGroup-3-3] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"ANIM_N01_01.lua","size":833,"sharer":"Anonymous","checksum":"121c594c033114bbb576cde785125bee"}
+[INFO] 2016-08-13 23:49:32,822 [nioEventLoopGroup-3-3] netty.napsters.server.FileServer - File shared at [id: 0xe7099730, /127.0.0.1:25750 => /127.0.0.1:7878], SharedFile [FileName=ANIM_N01_01.lua, Sharer=Anonymous, Checksum=121c594c033114bbb576cde785125bee, Size=833 Byte]
+[DEBUG] 2016-08-13 23:50:09,268 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:50:09,269 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:50:09,279 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:50:16,461 [nioEventLoopGroup-3-4] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"ACE.dll","size":1958608,"sharer":"Anonymous","checksum":"babf6eebb81cef6492b46ed6d8235017"}
+[DEBUG] 2016-08-13 23:51:07,371 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: CONNECT Anonymous
+[INFO] 2016-08-13 23:51:07,371 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-13 23:51:07,381 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:51:16,312 [nioEventLoopGroup-3-5] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"新建 Microsoft Word Document.docx","size":110318,"sharer":"Anonymous","checksum":"ed7d6ad7a61f388ba287278409610490"}
+[INFO] 2016-08-13 23:51:16,313 [nioEventLoopGroup-3-5] netty.napsters.server.FileServer - File shared at [id: 0x682e4ab2, /127.0.0.1:25789 => /127.0.0.1:7878], SharedFile [FileName=新建 Microsoft Word Document.docx, Sharer=Anonymous, Checksum=ed7d6ad7a61f388ba287278409610490, Size=110318 Byte]
+[DEBUG] 2016-08-13 23:54:35,022 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:54:35,034 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:54:42,743 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"《计算机网络》点名册.xls","size":48128,"sharer":"Anonymous","checksum":"850d59e1117ac442ff1903b740c0941a"}
+[INFO] 2016-08-13 23:54:42,839 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0x9eafcff0, /127.0.0.1:25840 => /127.0.0.1:7878], SharedFile [FileName=《计算机网络》点名册.xls, Sharer=Anonymous, Checksum=850d59e1117ac442ff1903b740c0941a, Size=48128 Byte]
+[DEBUG] 2016-08-13 23:54:42,844 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST
+[DEBUG] 2016-08-13 23:55:15,191 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: CONNECT AnonymousLIST
+[INFO] 2016-08-13 23:55:15,202 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - New user joined  AnonymousLIST, Current Online Users: 1
+[DEBUG] 2016-08-13 23:55:21,745 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: ADD {"fileName":"think.txt","size":1105,"sharer":"Anonymous","checksum":"b2c9cd14d65fec8c7054cb8bf60c1a08"}
+[INFO] 2016-08-13 23:55:21,838 [nioEventLoopGroup-3-1] netty.napsters.server.FileServer - File shared at [id: 0xdd88a246, /127.0.0.1:25890 => /127.0.0.1:7878], SharedFile [FileName=think.txt, Sharer=Anonymous, Checksum=b2c9cd14d65fec8c7054cb8bf60c1a08, Size=1105 Byte]
+[DEBUG] 2016-08-13 23:55:21,845 [nioEventLoopGroup-3-1] netty.napsters.server.ServerHandler - Received new message: LIST

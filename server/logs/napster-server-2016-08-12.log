@@ -1,0 +1,27 @@
+[INFO] 2016-08-12 22:26:04,099 [main] com.infinitescript.napster.server.ApplicationBootstrap - Server is running...
+[DEBUG] 2016-08-12 22:26:12,785 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT Anonymous
+[INFO] 2016-08-12 22:26:12,786 [Thread-1] com.infinitescript.napster.server.SessionGateway - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-08-12 22:26:12,801 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2016-08-12 22:26:21,284 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: ADD {"fileName":"新建 Microsoft Word Document.docx","size":110318,"sharer":"Anonymous","checksum":"ed7d6ad7a61f388ba287278409610490"}
+[INFO] 2016-08-12 22:26:21,334 [Thread-1] com.infinitescript.napster.server.FileServer - File shared at Socket[addr=/127.0.0.1,port=49604,localport=7777], SharedFile [FileName=新建 Microsoft Word Document.docx, Sharer=Anonymous, Checksum=ed7d6ad7a61f388ba287278409610490, Size=110318 Byte]
+[DEBUG] 2016-08-12 22:26:21,335 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2016-08-12 22:26:23,697 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2016-08-12 22:26:24,513 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2016-08-12 22:26:36,295 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT Anonymous
+[INFO] 2016-08-12 22:26:36,296 [Thread-2] com.infinitescript.napster.server.SessionGateway - New user joined  Anonymous, Current Online Users: 2
+[DEBUG] 2016-08-12 22:26:36,303 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2016-08-12 22:26:38,977 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2016-08-12 22:26:46,071 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: REQUEST ed7d6ad7a61f388ba287278409610490
+[ERROR] 2016-08-12 22:27:10,272 [Thread-2] com.infinitescript.napster.server.SessionGateway - catching
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_101]
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_101]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_101]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_101]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_101]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_101]
+	at com.infinitescript.napster.server.SessionGateway.run(SessionGateway.java:38) [classes/:?]
+[INFO] 2016-08-12 22:27:10,292 [Thread-2] com.infinitescript.napster.server.SessionGateway - Socket has closed for Socket[addr=/127.0.0.1,port=49606,localport=7777]

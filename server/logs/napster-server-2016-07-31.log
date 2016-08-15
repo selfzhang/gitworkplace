@@ -1,0 +1,24 @@
+[INFO] 2016-07-31 21:57:09,120 [main] com.infinitescript.napster.server.ApplicationBootstrap - Server is running...
+[DEBUG] 2016-07-31 21:57:16,100 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT Anonymous
+[INFO] 2016-07-31 21:57:16,101 [Thread-1] com.infinitescript.napster.server.SessionGateway - New user joined  Anonymous, Current Online Users: 1
+[DEBUG] 2016-07-31 21:57:16,111 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2016-07-31 21:57:29,932 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: ADD {"fileName":"新建文本文档.txt","size":12,"sharer":"Anonymous","checksum":"7833ec76e25f5c2f82a53abe79fdc611"}
+[INFO] 2016-07-31 21:57:29,997 [Thread-1] com.infinitescript.napster.server.FileServer - File shared at Socket[addr=/127.0.0.1,port=22953,localport=7777], SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[DEBUG] 2016-07-31 21:57:29,998 [Thread-1] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2016-07-31 21:57:45,238 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: CONNECT Anonymous2
+[INFO] 2016-07-31 21:57:45,239 [Thread-2] com.infinitescript.napster.server.SessionGateway - New user joined  Anonymous2, Current Online Users: 2
+[DEBUG] 2016-07-31 21:57:45,247 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[DEBUG] 2016-07-31 21:57:54,056 [Thread-2] com.infinitescript.napster.server.SessionGateway - Received new message: LIST
+[ERROR] 2016-07-31 21:58:06,553 [Thread-2] com.infinitescript.napster.server.SessionGateway - catching
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_101]
+	at java.net.SocketInputStream.read(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_101]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_101]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_101]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_101]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_101]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_101]
+	at com.infinitescript.napster.server.SessionGateway.run(SessionGateway.java:38) [classes/:?]
+[INFO] 2016-07-31 21:58:06,568 [Thread-2] com.infinitescript.napster.server.SessionGateway - Socket has closed for Socket[addr=/127.0.0.1,port=22959,localport=7777]

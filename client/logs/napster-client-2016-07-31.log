@@ -1,0 +1,15 @@
+[INFO] 2016-07-31 21:57:16,109 [JavaFX Application Thread] com.infinitescript.napster.client.Client - Connected to server.
+[DEBUG] 2016-07-31 21:57:29,997 [JavaFX Application Thread] com.infinitescript.napster.client.Client - [ShareFile] Received message from server: OK
+[INFO] 2016-07-31 21:57:30,018 [JavaFX Application Thread] com.infinitescript.napster.client.ApplicationBootstrap - File shared: SharedFile [FileName=新建文本文档.txt, Sharer=Anonymous, Checksum=7833ec76e25f5c2f82a53abe79fdc611, Size=12 Byte]
+[INFO] 2016-07-31 21:57:45,243 [JavaFX Application Thread] com.infinitescript.napster.client.Client - Connected to server.
+[ERROR] 2016-07-31 21:57:45,243 [Thread-5] com.infinitescript.napster.client.FileServer - catching
+java.net.BindException: Address already in use: Cannot bind
+	at java.net.DualStackPlainDatagramSocketImpl.socketBind(Native Method) ~[?:1.8.0_101]
+	at java.net.DualStackPlainDatagramSocketImpl.bind0(Unknown Source) ~[?:1.8.0_101]
+	at java.net.AbstractPlainDatagramSocketImpl.bind(Unknown Source) ~[?:1.8.0_101]
+	at java.net.DatagramSocket.bind(Unknown Source) ~[?:1.8.0_101]
+	at java.net.DatagramSocket.<init>(Unknown Source) ~[?:1.8.0_101]
+	at java.net.DatagramSocket.<init>(Unknown Source) ~[?:1.8.0_101]
+	at java.net.DatagramSocket.<init>(Unknown Source) ~[?:1.8.0_101]
+	at com.infinitescript.napster.client.FileServer.lambda$0(FileServer.java:31) ~[classes/:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_101]
